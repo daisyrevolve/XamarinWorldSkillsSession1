@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinWorldSkillsSession1.Page1">
+    <StackLayout>
+            <Label Text="ASEAN SKILLS 2020" FontSize="30"
+           HorizontalOptions="Center"
+           Margin="0,20,0,0" />
+            <Label Text="New Account Creation" FontSize="30"
+           HorizontalOptions="Center"
+           />
+
+            <Entry x:Name="userName" Placeholder="User Name"></Entry>
+            <Entry x:Name="userId" Placeholder="Username"></Entry>
+            <Entry x:Name="password" Placeholder="Password"></Entry>
+            <Entry x:Name="cPassword" Placeholder="Re-enter password (to confirm)"></Entry>
+            <Picker x:Name="userType" Placeholder="User type"></Picker>
+
+            <Button x:Name="btnCreateAccount" Text="Create Account" Clicked="btnCreateAccount_Clicked" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+        </StackLayout>
+
+</ContentPage>
